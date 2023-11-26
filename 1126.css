@@ -1,0 +1,17 @@
+.my-custom-style {
+    width: 50%;
+    height:100%;
+    background-color: rgba(108, 117, 125, 0.2);/* 背景颜色，最后一个参数 0.5 表示半透明 */
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);/* 文本颜色，最后一个参数 1 表示完全不透明 */
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 20px;
+}
+#round {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
